@@ -15,6 +15,7 @@ class User extends Authenticatable
      * The attributes that are mass assignable.
      *
      * @var array
+     * se adiciona lo de autenticacion nuevos campos
      */
     protected $fillable = [
         'documento',
